@@ -6,3 +6,89 @@ export default {
 
 
 
+<template>
+    <div class="box">
+        <div class="box2 d-flex">
+            <div class="d-flex flex-column box3 justify-content-center  aligh-items-center">
+                <div class="">
+                    <h1> Distant learning for <br> further expansion</h1>
+                    <p class="p">Learning is a life-long journey that in fact we never find <br> the terminate stop. Stop searching, enjoy the process</p>
+                    <button class="mt-3"> <i class="fa-solid fa-download" style="color: #ffffff;"></i> <strong> dowload free guide</strong> </button>
+                    <p class="mt-3"> have a questions? <a href="#">Get free sample <i  class="fa-solid fa-arrow-right"></i> </a> </p>
+                </div>
+            </div>
+            <div class="box3 d-flex flex-column justify-content-center  aligh-items-center position-relative">
+                <img class="mb-2" width="80" src="images/maxcoach-shape-07.png" alt="">
+                <img class="  " width="80" src="images/maxcoach-shape-07.png" alt="">
+                <img class="rounded-circle position-absolute ms-4" width="430" src="images/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg" alt="">
+                <img class="img" width="80" src="images/maxcoach-shape-07.png" alt="">
+                <img class="position-absolute img2" width="80" src="images/maxcoach-shape-02.png" alt="">
+            </div>
+        </div>
+        <div class="box4 d-flex justify-content-between h-300">
+            <div class=""><img width="60" src="images/client-logo-01.png" alt=""></div>
+            <div><img width="60" src="images/client-logo-02.png" alt=""></div>
+            <div><img width="60" src="images/client-logo-03.png" alt=""></div>  
+            <div><img width="60" src="images/client-logo-04.png" alt=""></div>
+            <div><img width="60" src="images/client-logo-05.png" alt=""></div>
+            <div><img width="60" src="images/client-logo-06.png" alt=""></div>
+        </div>
+    </div>
+</template>
+
+
+
+
+<style lang="scss" scoped>
+.box {
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
+.box2 {
+    width: 80%;
+    margin: 0 auto;
+    height: 80%;
+}
+.box3 {
+    width: 50%;
+    height: 100%;
+}
+.p {
+    color: #A192A2;
+}
+h1 {
+    color: #3F3A64;
+}
+button {
+    background-color: #20AD96;
+    color: white;
+    border: 1px solid #20AD96;
+    border-radius: 4px;
+    padding: 15px;
+    font-size: 10px;
+}
+a {
+    font-weight: bold;
+    color: #20AD96;
+}
+i {
+    font-size: 15px;
+}
+.img {
+    margin-top: 8rem;
+    margin-left: 23rem;
+}
+.img2 {
+    margin-left: 29rem;
+    margin-bottom: 10rem;
+}
+.box4 {
+    width: 80%;
+    margin: 0 auto;
+    height: 120px;
+    margin-top: 10px;
+}
+
+
+</style>

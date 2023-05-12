@@ -2,13 +2,15 @@
 
 import SearchComp from './components/SearchComp.vue'
 import MainComp from './components/MainComp.vue'
+import MainComp2 from './components/MainComp2.vue'
 
 
 export default {
     name: "app",
     components: {
         SearchComp,
-        MainComp
+        MainComp,
+        MainComp2
     }
 }
 
@@ -20,6 +22,7 @@ export default {
 </header>
 <main>
     <MainComp/>
+    <MainComp2/>
 </main>
   
 </template>
