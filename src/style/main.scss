@@ -1,1 +1,29 @@
 @import 'node_modules/bootstrap/scss/bootstrap';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+  border-bottom: 2px solid #F7F7F7;
+    a {
+        color: #333333;
+        text-decoration: none;
+        margin-left: 10px;
+        font-size: 15px;
+        i {
+            font-size: 6px;
+        }.d {
+            font-size: 20px;
+            margin-right: 20px;
+            color: #333333;
+        }li {
+            margin-left: 30px;
+        }
+    }
+    a:hover {
+        color: beige;
+    }
+}
