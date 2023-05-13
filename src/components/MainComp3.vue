@@ -97,7 +97,8 @@ export default {
     </div>
  <div class="box5">
     <div class="box4 d-flex  lh-lg">
-        <div v-for="(elem, index) in arrayC" :key="index" class="items2 d-flex flex-column justify-content-center align-items-center  lh-lg">
+        <div v-for="(elem, index) in arrayC" :key="index" 
+         :nomeProps="{}" class="items2 d-flex flex-column justify-content-center align-items-center  lh-lg">
             <p class="color-2">{{ elem.p }}</p>
             <h1 class="color"> <strong>{{ elem.number }}</strong> </h1>
             <p class="color-3">{{ elem.blog }}</p>
