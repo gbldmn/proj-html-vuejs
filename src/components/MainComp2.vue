@@ -124,7 +124,11 @@ export default {
      </div>
      <div class="d-flex justify-content-center align-items-center dert">
         <div>
-            <h1>pd</h1>
+            <h6 class="coler">GET STARTED <span class="color">AFFORTLESSY</span> </h6>
+            <h1>Enjoy our <br> <span class="color-2">componiorship</span></h1>
+            <p>Sneek peek into what as in store for you on our <br> online teaching and mantoring portal. Seek for <br>
+            some hidden hints of early-bird rewards as well.</p>
+            <a class="color-2" href="#">dowload free guidebook <i class="fa-solid fa-arrow-right"></i> </a>
         </div>
      </div>
     </div>
@@ -196,7 +200,16 @@ h5 {
 }
 .zi {
     z-index: 2;
+    border-radius: 10px;
 }
-
+.color {
+    color: #3F3A64;
+}
+.color-2 {
+    color: #20AD96;
+}
+.coler {
+    color: #A9A7BA;
+}
 
 </style>
