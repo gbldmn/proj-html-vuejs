@@ -19,6 +19,7 @@ export default {
                 <li class="d-inline-block"> <a href="#">Shop <i class="fa-solid fa-chevron-down" style="color: #000000;"></i></a>  </li>
                 <li class="d-inline-block"> <a href="#"> <i class="fa-regular fa-circle-user d" style="color: #000000;"></i> </a> </li>
                 <input  type="text" placeholder="Search..."> <button> <i class="fa-solid fa-magnifying-glass"></i> </button>
+                <button>gggg</button>
             </ul>
             
         </div>
