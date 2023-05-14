@@ -18,7 +18,7 @@ export default {
                      <a href="#">{{ elemMenu.nome }} <i class="fa-solid fa-chevron-down" style="color: #000000;"></i></a>
                      <ul class="sub-menu position-absolute " v-if="(elemMenu.subMenu.length)">
                         <li v-for="(elem, index) in elemMenu.subMenu" :key="index">
-                            {{ elem }}
+                           <a href="">{{ elem }}</a> 
                         </li>
                      </ul>
                 </li>
@@ -60,13 +60,14 @@ input {
     z-index: 99999;
     background-color: white;
     padding: 1rem;
+    border-bottom: 4px solid #20AD96;
 }
 .menu-item:hover .sub-menu {
     display: block;
 }
-li {
+ul li {
     list-style-type: none;
-    line-height: 1rem;
+    line-height: 1.5rem;
 }
 
 

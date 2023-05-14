@@ -95,6 +95,7 @@ export default {
             <img src="images/maxcoach-shape-02.png" alt="">
         </div>
     </div>
+    
  <div class="box5">
     <div class="box4 d-flex  lh-lg">
         <div v-for="(elem, index) in arrayC" :key="index" 

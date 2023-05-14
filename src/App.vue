@@ -6,6 +6,7 @@ import MainComp2 from './components/MainComp2.vue'
 import MainComp3 from './components/MainComp3.vue'
 import MainComp4 from './components/MainComp4.vue'
 import FooterComp from './components/FooterComp.vue'
+import PrefooterComp from './components/PrefooterComp.vue'
 
 
 export default {
@@ -16,7 +17,8 @@ export default {
         MainComp2,
         MainComp3,
         MainComp4,
-        FooterComp
+        FooterComp,
+        PrefooterComp
     },
     data() {
         return {
@@ -24,51 +26,77 @@ export default {
                 {
                     nome: 'home',
                     subMenu:[
-                        'subMenu1',
-                        'subMenu2',
-                        'subMenu3',
+                        'Subscribe',
+                        'Enter',
+                        'News',
                     ]
                 },
                 {
                     nome: 'Pages',
                     subMenu:[
-                        'subMenu1',
-                        'subMenu2',
-                        'subMenu3',
+                        'Maxchoach',
+                        'componiorship',
+                        'Featured',
                     ]
                 },
                 {
-                    nome: 'Pages',
+                    nome: 'Courses',
                     subMenu:[
-           
+                        'works'
+                    ]
+                },
+                {
+                    nome: 'Features',
+                    subMenu:[
+                        'Menu',
+                        'Documentation',
+                        'support'
+
+                    ]
+                },
+                {
+                    nome: 'blog',
+                    subMenu:[
+                        ' List',
+                        ' Grid',
+                        ' Type'
+                    ]
+                },
+                {
+                    nome: 'Shop',
+                    subMenu:[
+                        'My Shop',
+                        'Card',
+                        'Whishlist'
+
                     ]
                 },
                 
             ],
             footerMenu: [
                 {
-                    nome: 'explore',
+                    nome: 'Explore',
                     subMenu:[
-                        'subMenu1',
-                        'subMenu2',
-                        'subMenu3',
+                        'Start here',
+                        'Blog',
+                        'About us',
                     ]
                 },
                 {
                     nome: '',
                     subMenu:[
-                        'subMenu1',
-                        'subMenu2',
-                        'subMenu3',
+                        'Success Story',
+                        'Courses',
+                        'Contact us',
                     ]
                 },
                 {
-                    nome: 'informatio',
+                    nome: 'Information',
                     subMenu:[
-                        'subMenu1',
-                        'subMenu2',
-                        'subMenu3',
-                        'subMenu4'
+                        'Membership',
+                        'Purchase guide',
+                        'Privacy policy',
+                        'Terms of services'
                     ]
                 }
             ]
@@ -87,6 +115,7 @@ export default {
     <MainComp2/>
     <MainComp3/>
     <MainComp4/>
+    <PrefooterComp/>
     <FooterComp :footerMenu="footerMenu"/>
 </main>
   

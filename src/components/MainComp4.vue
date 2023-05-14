@@ -15,7 +15,7 @@ export default {
                 <p class="lh-lg mt-4 color-2"> <i class="fa-solid fa-arrow-right-long"></i> Become a Better Blogger:Content Planning</p>
                 <p class="lh-lg color-2"> <i class="fa-solid fa-arrow-right-long"></i> Promoting Your Online Business on Pinterest</p>
                 <p class="lh-lg color-2"> <i class="fa-solid fa-arrow-right-long"></i> Gamification and Game-Based Learning</p>
-                <p class="lh-lg color-2"> <i class="fa-solid fa-arrow-right-long"></i> Designing on Online Course from Expert's Perspective</p>
+                <p class="lh-lg color-2"> <i class="fa-solid fa-arrow-right-long"></i> Designing on Course from Expert's Perspective</p>
                 <p class="lh-lg color-2"> <i class="fa-solid fa-arrow-right-long"></i> Why Online Courses Are the Future of Education</p>
  
         </div>
