@@ -13,20 +13,20 @@ export default {
                 <div class="">
                     <h1> Distant learning for <br> further expansion</h1>
                     <p class="p">Learning is a life-long journey that in fact we never find <br> the terminate stop. Stop searching, enjoy the process</p>
-                    <button class="mt-3"> <i class="fa-solid fa-download" style="color: #ffffff;"></i> <strong> dowload free guide</strong> </button>
+                    <button class="mt-3"> <a href=""> <i class="fa-solid fa-download" style="color: #ffffff;"></i> <strong> dowload free guide</strong> </a></button>
                     <p class="mt-3"> have a questions? <a href="#">Get free sample <i  class="fa-solid fa-arrow-right"></i> </a> </p>
                 </div>
             </div>
             <div class="box3 d-flex flex-column justify-content-center  aligh-items-center position-relative">
-                <img class="mb-2" width="80" src="images/maxcoach-shape-07.png" alt="">
-                <img class="  " width="80" src="images/maxcoach-shape-07.png" alt="">
+                <img class="mb-2 tre " width="80" src="images/maxcoach-shape-07.png" alt="">
+                <img class=" tre quattro " width="80" src="images/maxcoach-shape-07.png" alt="">
                 <img class="rounded-circle position-absolute ms-4" width="430" src="images/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg" alt="">
-                <img class="img" width="80" src="images/maxcoach-shape-07.png" alt="">
-                <img class="position-absolute img2" width="80" src="images/maxcoach-shape-02.png" alt="">
+                <img class="img tre" width="80" src="images/maxcoach-shape-07.png" alt="">
+                <img class="position-absolute img2 tre quattro" width="80" src="images/maxcoach-shape-02.png" alt="">
             </div>
         </div>
         <div class="box4 d-flex justify-content-between h-300">
-            <div class=""><img width="60" src="images/client-logo-01.png" alt=""></div>
+            <div><img width="60" src="images/client-logo-01.png" alt=""></div>
             <div><img width="60" src="images/client-logo-02.png" alt=""></div>
             <div><img width="60" src="images/client-logo-03.png" alt=""></div>  
             <div><img width="60" src="images/client-logo-04.png" alt=""></div>
@@ -89,6 +89,27 @@ i {
     height: 120px;
     margin-top: 10px;
 }
-
+.tre {
+    transition: 2s;
+}
+.tre:hover {
+    filter: grayscale(.6) sepia(.5);
+    border-radius: 20px;
+    transform: scale(1.5);
+}
+.quattro {
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+a {
+    color: white
+}
+a:hover {
+    color: white;
+}
 
 </style>

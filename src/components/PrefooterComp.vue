@@ -11,8 +11,8 @@ export default {
     <div class="box">
         <div class="box3 d-flex justify-content-center align-items-center">
                 <div>
-                    <img src="images/maxcoach-shape-01.png" alt="">
-                    <img class="m" width="40" src="images/maxcoach-shape-05-150x150.png" alt="">
+                    <img  src="images/maxcoach-shape-01.png" alt="">
+                    <img class="m quattro" width="40" src="images/maxcoach-shape-05-150x150.png" alt="">
                 </div>
                 <div class="text-center margin lh-lg">
                     <h4 class="color-2">Subscribe <span class="color">Newsletters</span></h4>
@@ -21,7 +21,7 @@ export default {
                     <button>subscribe</button>
                 </div>
                 <div class="item position-relative">
-                    <img class="position-absolute g" src="images/maxcoach-shape-02.png" alt="">
+                    <img class="position-absolute g quattro" src="images/maxcoach-shape-02.png" alt="">
                     <img class=" position-absolute c" src="images/maxcoach-shape-09.png" alt="">
                 </div>
         </div>
@@ -86,6 +86,14 @@ input {
 }
 .c {
     margin-top: 30%;
+}
+.quattro {
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(1turn);
+    }
 }
 
 </style>

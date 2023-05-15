@@ -84,15 +84,15 @@ export default {
     <div class="box3 d-flex justify-content-center align-items-center">
         <div>
             <img src="images/maxcoach-shape-01.png" alt="">
-            <img class="m" width="40" src="images/maxcoach-shape-05-150x150.png" alt="">
+            <img class="m quattro" width="40" src="images/maxcoach-shape-05-150x150.png" alt="">
         </div>
         <div class="text-center margin lh-lg">
             <h5 class="color-2">start today for getting <span class="color">online certification</span></h5>
             <h4 class="color-2">You can be your own guiding star whit our help!</h4>
-            <button>Get started now</button>
+            <button> <a href="https://maxcoach.thememove.com/main/contact-us/">Get started now</a></button>
         </div>
         <div>
-            <img src="images/maxcoach-shape-02.png" alt="">
+            <img class="quattro" src="images/maxcoach-shape-02.png" alt="">
         </div>
     </div>
     
@@ -174,5 +174,19 @@ button {
     width: 100%;
     background-color: white;
 }
-
+.quattro {
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+}
 </style>

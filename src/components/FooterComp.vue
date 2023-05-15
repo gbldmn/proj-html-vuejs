@@ -19,6 +19,9 @@ export default {
             <span>support@maxchoac.com</span>
             <span> <a href=""><i class="fa-brands fa-square-facebook"></i></a>  <a href=""> <i class="fa-brands fa-twitter"></i></a> <a href=""><i class="fa-brands fa-instagram"></i></a> <a href=""><i class="fa-brands fa-linkedin"></i></a>   </span>
         </div>
+        <div class="d-flex align-items-end br">
+           <span class="we"><i class="fa-regular fa-copyright"></i>2020 Maxchoac <strong>All Reserved</strong></span>
+        </div>
         <div class="d-flex">
             <div v-for="(elemMenu, index) in footerMenu" :key="index">
                 <h6>{{ elemMenu.nome }}</h6>
@@ -27,8 +30,6 @@ export default {
                      <a href="">{{ elem }}</a></li>
                 </ul>
             </div>
-                
-       
         </div>
     </div>
 </div>
@@ -66,5 +67,12 @@ h6 {
 a {
     color: #333333;
     text-decoration: none;
+}
+.br {
+    height: 350px;
+    width: 250px;
+}
+.we {
+    color: #ABABAB;
 }
 </style>

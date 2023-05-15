@@ -70,12 +70,11 @@ export default {
                     <h4 class="mt-4"> {{ elem.price }} </h4>
                     <h5> {{ elem.lavoro }} </h5>
                     <p class="d-inline-block"> <i class="fa-regular fa-file-lines"></i> {{ elem.lessons }} lessons <i class="fa-regular fa-user"></i> {{ elem.students }} students</p>
-                    <!-- <span> <i class="fa-regular fa-user"></i> {{ elem.students }} </span> -->
                 </div>
             </div>
         </div>
     </div>
-    <button class="text-center mt-3 mb-4">view all courses <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i> </button>
+    <button class="text-center mt-3 mb-4"> <a href=" https://maxcoach.thememove.com/main/courses-grid-01/ ">view all courses <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></a>   </button>
 </div>
 
 <div class="box4">
@@ -116,11 +115,10 @@ export default {
         </div>
     </div>
   <div class="den d-flex mt-5 position-relative">
-    <img class="position-absolute zi mt-4 ms-5" width="500" src="images/home-2-popup-video-poster.jpg">
+    <img class="position-absolute zi mt-4 ms-5 tre " width="500" src="images/home-2-popup-video-poster.jpg">
     <div class=" dert d-flex align-items-end flex-column position-relative"> 
-        <!-- <img class="mt-2 me-auto position-absolute zii" width="100" src="images/icon-youtube-play.png"> -->
-         <img class="mt-2 me-auto"  src="images/maxcoach-shape-05-100x100.png">
-         <img class="mt-2 mt-auto"  src="images/maxcoach-shape-08.png">
+         <img class="mt-2 me-auto tre quattro"  src="images/maxcoach-shape-05-100x100.png">
+         <img class="mt-2 mt-auto tre"  src="images/maxcoach-shape-08.png">
      </div>
      <div class="d-flex justify-content-center align-items-center dert">
         <div>
@@ -157,6 +155,11 @@ export default {
     width: calc(100% / 2 - 1px);
     background-color: #F5F7FA;
 }
+.cards:hover {
+    background-color: white;
+    border-radius: 10px;
+}
+
 .img {
     width: 150px;
     border-radius: 100%;
@@ -178,6 +181,9 @@ p {
     border: 1px solid #20AD96;
     border-radius: 10px;
     color: white;
+}
+.mt-3:hover {
+    background-color: #3F3A64;
 }
 a {
     text-decoration: none;
@@ -211,5 +217,26 @@ h5 {
 .coler {
     color: #A9A7BA;
 }
-
+.tre {
+    transition: 2s;
+}
+.tre:hover {
+    filter: grayscale(.6) sepia(.5);
+    border-radius: 20px;
+    transform: scale(1.5);
+}
+.quattro {
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+a {
+    color: white;
+}
+a:hover {
+    color: white;
+}
 </style>

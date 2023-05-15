@@ -22,11 +22,6 @@ export default {
                         </li>
                      </ul>
                 </li>
-                <!-- <li class="d-inline-block"> <a href="#">Pages <i class="fa-solid fa-chevron-down" style="color: #000000;"></i></a>  </li>
-                <li class="d-inline-block"> <a href="#">Courses <i class="fa-solid fa-chevron-down " style="color: #000000;"></i></a>  </li>
-                <li class="d-inline-block"> <a href="#">Features <i class="fa-solid fa-chevron-down" style="color: #000000;"></i></a>  </li>
-                <li class="d-inline-block"> <a href="#">Blog <i class="fa-solid fa-chevron-down" style="color: #000000;"></i></a>  </li>
-                <li class="d-inline-block"> <a href="#">Shop <i class="fa-solid fa-chevron-down" style="color: #000000;"></i></a>  </li> -->
                 <li class="d-inline-block"> <a href="#"> <i class="fa-regular fa-circle-user d" style="color: #000000;"></i> </a> </li>
                 <input  type="text" placeholder="Search..."> <button> <i class="fa-solid fa-magnifying-glass"></i> </button>
             </ul>
@@ -41,20 +36,34 @@ export default {
     width: 80%;  
     margin: 0 auto;
 }
+    input {
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid #20AD96;
+    border-radius: 10px 0px 0px 10px;
+    margin-top: 20px;
+    border-right: 1px solid white;
+}
 button {
-    margin-top: 10px;
-     background-color: #F5F5F5;
-     padding: 5px;
-    border: 2px solid #F5F5F5;
-    border-radius: 2px;
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid #20AD96;
+    border-radius: 0px 10px 10px 0px;
+    color: white;
+    margin-top: 20px;
+    border-left: 1px solid white;
+    i {
+        color: grey;
     }
-input {
-     margin-top: 10px;
-     background-color: #F5F5F5;
-     padding: 5px;
-     border: 2px solid #F5F5F5;
-     border-radius: 2px;
+}
+button:hover {
+    background-color: #20AD96;
+    i {
+        color: white;
     }
+}
 .sub-menu {
     display: none;
     z-index: 99999;
@@ -69,7 +78,6 @@ ul li {
     list-style-type: none;
     line-height: 1.5rem;
 }
-
 
 
 </style>
