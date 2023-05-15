@@ -5,7 +5,6 @@ export default {
 </script>
 
 <template>
-  
 <div class="box">
     <div class="box2 d-flex justify-content-between align-items-center">
         <div class="d-flex flex-column">
@@ -21,7 +20,9 @@ export default {
         </div>
         <div>
             <div class="card" style="width: 25rem;">
-                <img src="images/artist-blog-03-480x352.jpeg" class="card-img-top" alt="...">
+                <div class="good">
+                    <img src="images/artist-blog-03-480x352.jpeg" class="card-img-top" alt="...">
+                </div>
                 <div class="card-body">
                     <h5 class="card-title color-3">ARTIST</h5>
                     <p class="card-text color-2"> <strong> Brush Strokes Energize trees in Paintings</strong></p>
@@ -31,8 +32,10 @@ export default {
         </div>
         
         <div> 
-            <div class="card" style="width: 25rem;">
-                 <img src="images/artist-blog-01-480x352.jpg" class="card-img-top" alt="...">
+            <div class="card" style="width: 23.5rem;">
+                <div class="good">
+                   <img src="images/artist-blog-01-480x352.jpg" class="card-img-top" alt="...">
+                </div>
                  <div class="card-body">
                     <h5 class="card-title color-3">ARTIST</h5>
                     <p class="card-text color-2"> <strong> Pocket-Sized Notebooks Hold Miniature Paintings</strong></p>
@@ -51,6 +54,19 @@ export default {
 
 
 <style lang="scss" scoped>
+.good {
+    overflow: hidden;
+    width: 100%;
+    height: 100%px;
+}
+img {
+    transition: all 0.7s ease-in-out;
+}
+.good:hover img {
+    transform: scale(1.7);
+    filter: brightness(0.7);
+}
+
 .box {
     width: 100%;
     background-color: #F4F0EC;

@@ -8,30 +8,38 @@ export default {
 </script>
 
 <template>
-    <div class="d-flex justify-content-between h-150 align-items-center wt">
-        <div>
-            <img width="150" src="images/dark-logo.png" alt="">
-        </div>
-        <div class="align-items-center">
-            <ul class="mt-2">
-                <li v-for="(elemMenu, index) in menu" :key="index"  class="d-inline-block menu-item position-relative">
-                     <a href="#">{{ elemMenu.nome }} <i class="fa-solid fa-chevron-down" style="color: #000000;"></i></a>
-                     <ul class="sub-menu position-absolute " v-if="(elemMenu.subMenu.length)">
-                        <li v-for="(elem, index) in elemMenu.subMenu" :key="index">
-                           <a href="">{{ elem }}</a> 
-                        </li>
-                     </ul>
-                </li>
-                <li class="d-inline-block"> <a href="#"> <i class="fa-regular fa-circle-user d" style="color: #000000;"></i> </a> </li>
-                <input  type="text" placeholder="Search..."> <button> <i class="fa-solid fa-magnifying-glass"></i> </button>
-            </ul>
-            
+    <div class="duc stiky">
+        <div class="d-flex justify-content-between h-150 align-items-center wt">
+            <div>
+                <img width="150" src="images/dark-logo.png" alt="">
+            </div>
+            <div class="align-items-center">
+                <ul class="mt-2">
+                    <li v-for="(elemMenu, index) in menu" :key="index"  class="d-inline-block menu-item position-relative">
+                        <a href="#">{{ elemMenu.nome }} <i class="fa-solid fa-chevron-down" style="color: #000000;"></i></a>
+                        <ul class="sub-menu position-absolute " v-if="(elemMenu.subMenu.length)">
+                            <li v-for="(elem, index) in elemMenu.subMenu" :key="index">
+                            <a href="">{{ elem }}</a> 
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="d-inline-block"> <a href="#"> <i class="fa-regular fa-circle-user d" style="color: #000000;"></i> </a> </li>
+                    <input  type="text" placeholder="Search..."> <button> <i class="fa-solid fa-magnifying-glass"></i> </button>
+                </ul>
+                
+            </div>
         </div>
     </div>
 </template>
 
 
 <style lang="scss" scoped>
+.duc {
+    width: 100%;
+    background-color: white;
+    margin: 0 auto;
+    border-bottom: 1px solid #20AD96;
+}
 .wt {
     width: 80%;  
     margin: 0 auto;
@@ -77,6 +85,13 @@ button:hover {
 ul li {
     list-style-type: none;
     line-height: 1.5rem;
+    margin-left: 10px;
+}
+.stiky {
+    position: fixed;
+    background-color: white;
+    z-index: 9999;
+
 }
 
 

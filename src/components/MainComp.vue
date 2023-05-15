@@ -7,13 +7,19 @@ export default {
 
 
 <template>
-    <div class="box">
+    <div class="text-end mt-4 d-inline-block ">
+       <div><i class="fa-solid fa-cart-shopping mt-1"></i></div>
+       <div><i class="fa-solid fa-book mt-1"></i></div>
+       <div><i class="fa-regular fa-circle-stop mt-1"></i></div>
+       <div><i class="fa-brands fa-codepen mt-1"></i></div>     
+    </div>
+    <div class="box margine">
         <div class="box2 d-flex">
             <div class="d-flex flex-column box3 justify-content-center  aligh-items-center">
                 <div class="">
                     <h1> Distant learning for <br> further expansion</h1>
                     <p class="p">Learning is a life-long journey that in fact we never find <br> the terminate stop. Stop searching, enjoy the process</p>
-                    <button class="mt-3"> <a href=""> <i class="fa-solid fa-download" style="color: #ffffff;"></i> <strong> dowload free guide</strong> </a></button>
+                    <button class="mt-3"> <a class="cv" href=""> <i class="fa-solid fa-download" style="color: #ffffff;"></i> <strong> dowload free guide</strong> </a></button>
                     <p class="mt-3"> have a questions? <a href="#">Get free sample <i  class="fa-solid fa-arrow-right"></i> </a> </p>
                 </div>
             </div>
@@ -105,11 +111,26 @@ i {
         transform: rotate(1turn);
     }
 }
-a {
-    color: white
-}
-a:hover {
+.cv {
     color: white;
+}
+.text-end {
+    padding: 0.5rem;
+    border: 1px solid grey;
+    border-radius: 10px;
+    position: fixed;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    margin-left: 97%;
+    background-color: white;
+    i {
+        color: #3F3A64;
+        cursor: pointer;
+    }
+}
+.margine {
+    margin-top: 6rem;
 }
 
 </style>
