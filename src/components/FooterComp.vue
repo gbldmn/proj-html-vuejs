@@ -9,6 +9,9 @@ export default {
 
 </script>
 
+
+<!-- PARTE FINALE -->
+
 <template>
 <div class="box">
     <div class="box2 d-flex justify-content-between align-items-center">

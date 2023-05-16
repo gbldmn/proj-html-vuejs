@@ -4,7 +4,7 @@ export default {
     }
 </script>
 
-
+<!-- PRIMA PARTE FINO AI SEI ADESIVI IN ORIZZONTALE -->
 
 <template>
     <div class="text-end mt-4 d-inline-block ">

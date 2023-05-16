@@ -53,6 +53,8 @@ export default {
     }
 }
 
+// DALLE 3 SCHEDE FINO ALLE COLONNE NUMERICHE
+
 </script>
 
 <template>

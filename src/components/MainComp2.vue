@@ -51,6 +51,7 @@ export default {
     }
 }
 
+// DA SOTTO GLI ADESIVI FINO ALLA FOTO CHE SI INGRANDISCE ALL'HOVER
 
 </script>
 

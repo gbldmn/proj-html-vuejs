@@ -7,6 +7,8 @@ export default {
     }
 </script>
 
+<!-- PARTE INIZIALE HEADER -->
+
 <template>
     <div class="duc stiky">
         <div class="d-flex justify-content-between h-150 align-items-center wt">
@@ -38,7 +40,7 @@ export default {
     width: 100%;
     background-color: white;
     margin: 0 auto;
-    border-bottom: 1px solid #20AD96;
+    border-bottom: 1px solid #3F3A64;
 }
 .wt {
     width: 80%;  

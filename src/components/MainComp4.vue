@@ -4,6 +4,10 @@ export default {
     }
 </script>
 
+
+<!-- PARTE CON DUE SCHEDE FINALI E SCRITTA A COLONNA INIZIALE -->
+
+
 <template>
 <div class="box">
     <div class="box2 d-flex justify-content-between align-items-center">
